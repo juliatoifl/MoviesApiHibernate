@@ -1,0 +1,14 @@
+services:
+  db:
+    image: postgres:16
+    container_name: "movies-db"
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_USER: sa
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: moviesAPI
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+volumes:
+  postgres_data:
