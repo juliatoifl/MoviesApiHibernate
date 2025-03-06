@@ -1,7 +1,7 @@
-package usecases;
+package com.example.MoviesApiHibernate.usecases;
 
-import entities.Actor;
-import repositories.ActorRepository;
+import com.example.MoviesApiHibernate.entities.Actor;
+import com.example.MoviesApiHibernate.repositories.ActorRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

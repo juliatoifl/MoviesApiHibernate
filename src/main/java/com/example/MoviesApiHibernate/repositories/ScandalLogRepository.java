@@ -1,6 +1,6 @@
-package repositories;
+package com.example.MoviesApiHibernate.repositories;
 
-import entities.ScandalLog;
+import com.example.MoviesApiHibernate.entities.ScandalLog;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

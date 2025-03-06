@@ -1,6 +1,8 @@
-package entities;
+package com.example.MoviesApiHibernate.entities;
 
 import jakarta.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -22,4 +24,7 @@ public class Actor {
   private String firstName;
   private String lastName;
   private LocalDate dateOfBirth;
+
+  @ManyToMany(mappedBy = "actors")
+  private Set<Movie> movies = new HashSet<>();
 }

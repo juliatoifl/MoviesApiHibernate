@@ -1,7 +1,7 @@
-package repositories;
+package com.example.MoviesApiHibernate.repositories;
 
-import entities.AcademyAwardNomination;
-import entities.Actor;
+import com.example.MoviesApiHibernate.entities.AcademyAwardNomination;
+import com.example.MoviesApiHibernate.entities.Actor;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

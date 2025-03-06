@@ -1,0 +1,87 @@
+[
+  {
+    "year": 1994,
+    "category": "Best Actor",
+    "won": true,
+    "actor": {
+      "firstName": "Tom",
+      "lastName": "Hanks",
+      "dateOfBirth": "1956-07-09"
+    },
+    "movie": {
+      "title": "Forrest Gump",
+      "releaseYear": 1994,
+      "genre": {
+        "name": "Drama"
+      }
+    }
+  },
+  {
+    "year": 1998,
+    "category": "Best Actress",
+    "won": true,
+    "actor": {
+      "firstName": "Gwyneth",
+      "lastName": "Paltrow",
+      "dateOfBirth": "1972-09-27"
+    },
+    "movie": {
+      "title": "Shakespeare in Love",
+      "releaseYear": 1998,
+      "genre": {
+        "name": "Romance"
+      }
+    }
+  },
+  {
+    "year": 2019,
+    "category": "Best Supporting Actor",
+    "won": true,
+    "actor": {
+      "firstName": "Brad",
+      "lastName": "Pitt",
+      "dateOfBirth": "1963-12-18"
+    },
+    "movie": {
+      "title": "Once Upon a Time in Hollywood",
+      "releaseYear": 2019,
+      "genre": {
+        "name": "Comedy-Drama"
+      }
+    }
+  },
+  {
+    "year": 2020,
+    "category": "Best Actor",
+    "won": true,
+    "actor": {
+      "firstName": "Joaquin",
+      "lastName": "Phoenix",
+      "dateOfBirth": "1974-10-28"
+    },
+    "movie": {
+      "title": "Joker",
+      "releaseYear": 2019,
+      "genre": {
+        "name": "Drama"
+      }
+    }
+  },
+  {
+    "year": 2022,
+    "category": "Best Supporting Actress",
+    "won": true,
+    "actor": {
+      "firstName": "Ariana",
+      "lastName": "DeBose",
+      "dateOfBirth": "1991-01-25"
+    },
+    "movie": {
+      "title": "West Side Story",
+      "releaseYear": 2021,
+      "genre": {
+        "name": "Musical"
+      }
+    }
+  }
+]

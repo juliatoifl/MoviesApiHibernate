@@ -1,4 +1,4 @@
-package entities;
+package com.example.MoviesApiHibernate.entities;
 
 import jakarta.persistence.*;
 import lombok.*;

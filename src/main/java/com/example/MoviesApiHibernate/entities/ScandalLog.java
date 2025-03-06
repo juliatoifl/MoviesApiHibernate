@@ -1,4 +1,4 @@
-package entities;
+package com.example.MoviesApiHibernate.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -22,6 +22,6 @@ public class ScandalLog {
   private String actorFirstName;
   private String actorLastName;
   private String reason;
-  private LocalDateTime date = LocalDateTime.now();
+  private LocalDateTime date;
 }
 

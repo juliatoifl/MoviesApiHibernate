@@ -1,12 +1,13 @@
-package usecases;
+package com.example.MoviesApiHibernate.usecases;
 
+import java.time.LocalDateTime;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import lombok.RequiredArgsConstructor;
-import entities.ScandalLog;
-import repositories.ScandalLogRepository;
-import repositories.AcademyAwardNominationRepository;
-import repositories.ActorRepository;
+import com.example.MoviesApiHibernate.entities.ScandalLog;
+import com.example.MoviesApiHibernate.repositories.ScandalLogRepository;
+import com.example.MoviesApiHibernate.repositories.AcademyAwardNominationRepository;
+import com.example.MoviesApiHibernate.repositories.ActorRepository;
 
 @RequiredArgsConstructor
 @Service
@@ -23,6 +24,7 @@ public class ReactToScandal {
         .actorFirstName(actor.getFirstName())
         .actorLastName(actor.getLastName())
         .reason(reason)
+        .date(LocalDateTime.now())
         .build();
 
     scandalLogRepository.save(scandalLog);
